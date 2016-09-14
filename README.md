@@ -5,7 +5,13 @@ A demo for the curriculum material covering the module pattern in JavaScript.
 
 
 ## Getting started
-## Additional Info
+
+To run the demo `cd` to the project directory and run:
+
+```bash
+$ ruby -run -e httpd . -p 3000
+```
+
 
 
 
