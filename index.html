@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>JS Module Pattern</title>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+    <!-- Lodash -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.13.1/lodash.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+
+    <header class="page-header text-center">
+      <h1>JS Module Pattern</h1>
+    </header>
+
+    <main class="container">
+      <h2>Create an Item</h2>
+
+      <form id="item-form">
+        <div class="form-group">
+          <input id="item" type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <button type="submit" class="btn btn-success">+ Create</button>
+        </div>
+      </form>
+
+      <ul id="list" class="list-group"></ul>
+    </main>
+
+
+    <script src="/assets/js/model.js"></script>
+    <script src="/assets/js/view.js"></script>
+    <script src="/assets/js/controller.js"></script>
+    <script src="/assets/js/app.js"></script>
+  </body>
+</html>
+
+
