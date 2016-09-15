@@ -11,7 +11,9 @@ DEMO.Model = (function(_) {
   var _items = [];
 
   return {
-    items: [],
+    all: function() {
+      return _items.slice();
+    },
 
     addItem: function(item) {
       item = {

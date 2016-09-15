@@ -22,7 +22,7 @@ DEMO.Controller = (function(Model, View) {
       View.init({
         onCreate: _addItem,
         onDestroy: _removeItem,
-        items: Model.items
+        items: Model.all()
       });
     }
   };
